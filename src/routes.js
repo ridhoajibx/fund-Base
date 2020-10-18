@@ -25,6 +25,13 @@ var routesDashboard = [
     layout: "/account",
   },
   {
+    path: "/date",
+    name: "Date",
+    icon: "nc-icon nc-calendar-60",
+    component: Icons,
+    layout: "/account",
+  },
+  {
     path: "/icons",
     name: "Icons",
     icon: "nc-icon nc-diamond",
