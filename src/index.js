@@ -28,6 +28,9 @@ import "perfect-scrollbar/css/perfect-scrollbar.css";
 
 import AccountLayout from "layouts/Account.js";
 
+import 'react-date-range/dist/styles.css'; // main css file
+import 'react-date-range/dist/theme/default.css'; // theme css file
+
 const hist = createBrowserHistory();
 
 ReactDOM.render(

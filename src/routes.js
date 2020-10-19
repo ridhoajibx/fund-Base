@@ -2,6 +2,7 @@ import Home from "views/Home.js";
 import Dashboard from "views/Dashboard.js";
 import Notifications from "views/Notifications.js";
 import Icons from "views/Icons.js";
+import Date from "views/Date";
 import Typography from "views/Typography.js";
 import TableList from "views/Tables.js";
 import UserPage from "views/User.js";
@@ -28,7 +29,7 @@ var routesDashboard = [
     path: "/date",
     name: "Date",
     icon: "nc-icon nc-calendar-60",
-    component: Icons,
+    component: Date,
     layout: "/account",
   },
   {
