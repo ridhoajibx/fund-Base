@@ -57,19 +57,11 @@ class Sidebar extends React.Component {
         data-active-color={this.props.activeColor}
       >
         <div className="logo d-flex justify-content-center">
-          {/* <a
-            href="https://www.creative-tim.com"
-            className="simple-text logo-mini"
-          >
-            <div className="logo-img">
-              <img src={logo} alt="react-logo" />
-            </div>
-          </a> */}
           <a
-            href="https://www.creative-tim.com"
+            href="#"
             className="simple-text logo-normal"
           >
-            Fun<span className="text-primary">d.</span>
+            Fun<span className="text-dark">d.</span>
           </a>
         </div>
         <div className="sidebar-wrapper" ref={this.sidebar}>

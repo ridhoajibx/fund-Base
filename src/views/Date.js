@@ -14,8 +14,8 @@ import { DateRangePicker } from 'react-date-range';
 const Date = () => {
     const [state, setState] = useState([
         {
-            startDate: new window.Date(),
-            endDate: addDays(new window.Date(), 7),
+            startDate: window.Date(2020/10/10),
+            endDate: addDays(new window.Date(), 1),
             key: 'selection'
         }
     ]);
@@ -36,7 +36,7 @@ const Date = () => {
                                     months={2}
                                     ranges={state}
                                     direction="horizontal"
-                                />;
+                                />
                             </CardBody>
                         </Card>
                     </Col>
